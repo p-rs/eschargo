@@ -1,8 +1,11 @@
-<div align="center">
+<p align="center">
   <h3 align="center">EsCharGo</h3>
   <h4 align="center">Escape Regex Metacharacters made in Go</h3>
-</div>
-___
+</p>
+
+---
+
+![preview](https://user-images.githubusercontent.com/31771429/97931648-b6106f00-1d33-11eb-8dfc-dd972e76ccb5.gif)
 
 * [Usage](#usage)
 
