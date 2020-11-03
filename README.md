@@ -1,17 +1,35 @@
 <p align="center">
   <h3 align="center">EsCharGo</h3>
-  <h4 align="center">Escape Regex Metacharacters made in Go</h3>
+  <h4 align="center">Escape Regex Metacharacters, made in Go</h3>
 </p>
 
 ---
 
 ![preview](https://user-images.githubusercontent.com/31771429/97931648-b6106f00-1d33-11eb-8dfc-dd972e76ccb5.gif)
 
+* [Installation](#installation)
+
 * [Usage](#usage)
 
 * [Limitation](#limitation)
 
 * [License](#license)
+
+## Installation
+
+```bash
+# brew
+brew install p-rs/eschargo-homebrew-tap/formula
+
+# scoop
+scoop bucket add eschargo https://github.com/p-rs/eschargo-scoop-bucket.git
+
+# via go build
+go build -o ecg github.com/p-rs/eschargo
+
+# or via releases
+tar xzf file.tgz /usr/local/bin/ecg
+```
 
 ## Usage
 
