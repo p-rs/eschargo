@@ -17,13 +17,14 @@
 
 ## Installation
 
-```bash
+```sh
 # brew
 brew tap p-rs/homebrew-eschargo
 brew install eschargo
 
 # scoop
 scoop bucket add eschargo https://github.com/p-rs/scoop-eschargo.git
+scoop install eschargo
 
 # via go build
 go build -o ecg github.com/p-rs/eschargo
@@ -36,7 +37,7 @@ tar xzf release-file.tgz /usr/local/bin/ecg
 
 Run any standard in/out through `ecg`:
 
-```bash
+```sh
 # output: \[02/Nov/2020:21:50:22 \+0000\]
 ecg '[02/Nov/2020:21:50:22 +0000]'
 
