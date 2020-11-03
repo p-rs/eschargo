@@ -19,16 +19,17 @@
 
 ```bash
 # brew
-brew install p-rs/eschargo-homebrew-tap/formula
+brew tap p-rs/homebrew-eschargo
+brew install eschargo
 
 # scoop
-scoop bucket add eschargo https://github.com/p-rs/eschargo-scoop-bucket.git
+scoop bucket add eschargo https://github.com/p-rs/scoop-eschargo.git
 
 # via go build
 go build -o ecg github.com/p-rs/eschargo
 
 # or via releases
-tar xzf file.tgz /usr/local/bin/ecg
+tar xzf release-file.tgz /usr/local/bin/ecg
 ```
 
 ## Usage
