@@ -80,7 +80,7 @@ brews:
     # Gitea is not supported yet, but the support coming
     tap:
       owner: p-rs
-      name: eschargo-homebrew-tap
+      name: homebrew-eschargo
       # Optionally a token can be provided, if it differs from the token provided to GoReleaser
       # token: "{{ secrets.GO_RELEASER_GITHUB_TOKEN }}"
 
@@ -175,7 +175,7 @@ scoop:
   # Repository to push the app manifest to.
   bucket:
     owner: p-rs
-    name: eschargo-scoop-bucket
+    name: scoop-eschargo
     # Optionally a token can be provided, if it differs from the token provided to GoReleaser
     # token: "{{ secrets.GO_RELEASER_GITHUB_TOKEN }}"
 
